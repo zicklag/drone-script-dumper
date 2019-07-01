@@ -1,0 +1,12 @@
+[package]
+name = "drone-script-dumper"
+description = "Super small script to dump out the shell versions of your .drone.yml commands."
+version = "0.1.0"
+authors = ["Zicklag <zicklag@katharostech.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+yaml-rust = "0.4"
+
